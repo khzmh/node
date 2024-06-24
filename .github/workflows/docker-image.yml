@@ -21,7 +21,7 @@ jobs:
         with:
           version: "lab:latest"
           driver: cloud
-          endpoint: "admskhld/elisa"
+          endpoint: "admskhld/spc"
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
